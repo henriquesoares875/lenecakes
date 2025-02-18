@@ -602,6 +602,8 @@
   .gallery{
     width:90vw;
   }
+   .gallery-grid img{
+    max-width:150px;
 }
 
 .gallery-container h2 {
@@ -618,8 +620,8 @@
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
   justify-items: center;
 }
 
