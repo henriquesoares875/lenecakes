@@ -618,7 +618,7 @@
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 10px;
   justify-items: center;
 }
@@ -626,7 +626,7 @@
 .gallery-grid img {
   width: 100%;
   max-width: 250px;
-  height: 250px;
+  max-height: 250px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
