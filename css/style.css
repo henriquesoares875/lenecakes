@@ -602,9 +602,7 @@
   .gallery{
     width:90vw;
   }
-   .gallery-grid img{
-    max-width:150px;
-}
+
 }
 .gallery-container h2 {
   font-size: 2rem;
@@ -628,7 +626,7 @@
 .gallery-grid img {
   width: 100%;
   max-width: 250px;
-  height: 300px;
+  height: 250px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
